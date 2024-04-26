@@ -6,6 +6,10 @@ pipeline {
     stage('Test') {
       steps {
         sh 'node --version'
+        sh 'npm --version'
+        sh 'npx --version'
+        sh 'npm i express'
+
       }
     }
   }
